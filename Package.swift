@@ -1,14 +1,14 @@
-// swift-tools-version:5.6
+// swift-tools-version:5.10
 
 import PackageDescription
 
 let package = Package(
     name: "PulseLogHandler",
     platforms: [
-        .iOS(.v14),
+        .iOS(.v15),
         .tvOS(.v15),
-        .macOS(.v12),
-        .watchOS(.v8)
+        .macOS(.v13),
+        .watchOS(.v9)
     ],
     products: [
         .library(name: "PulseLogHandler", targets: ["PulseLogHandler"])
